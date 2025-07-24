@@ -1,9 +1,8 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Getahun | Front-End Developer</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="style.css">
 
@@ -12,8 +11,8 @@
 <body>
 
   <!-- Mobile Menu Button -->
-  <button id="menu-toggle" aria-label="Toggle Menu" style="display:none; position:fixed; top:15px; right:15px; z-index:1000; background:#26b8bd; color:white; border:none; padding:10px 15px; border-radius:5px; font-size:18px;">
-    ☰ Menu
+  <button id="menu-toggle" aria-label="Toggle Menu" style="display:none; position:fixed; top:15px;left:15px; z-index:1000; background:#26b8bd; color:white; border:none; padding:5px 6px; border-radius:3px; font-size:13px;">
+    ☰ 
   </button>
   <!-- Navigation -->
   <div class="scrollmenu">
@@ -39,7 +38,7 @@
 
   <!-- Profile Section -->
   <div class="profile-container">
-    <img src="image/profile.JPG" alt="Getahun" class="circle-image">
+    <img src="images/profile.JPG" alt="Getahun" class="circle-image">
     <div class="bio-text">
       <p>
         Hello again! I'm Getahun, a front-end developer based in Addis Ababa. I enjoy turning ideas into real, usable web experiences.
@@ -92,29 +91,37 @@
       <!-- Emoji Game -->
 <div class="col-sm-5 project-card">
         <h3 style="color: #333;">🎮 Emoji Matching Game</h3>
+        <img src="images/pic2.png" alt="Number Guessing Game Screenshot" style="width:100%; max-width:300px; height:auto; border-radius:8px; box-shadow:0 0 10px rgba(0,0,0,0.1); margin-bottom:15px;">
+
         <p style="font-size: 16px; color: #555;">
+        
           A fun memory game where players flip emoji cards to find matching pairs. Smooth animations and responsive design make it engaging on all devices.
         </p>
         <p><strong>Tools:</strong> HTML, CSS, JavaScript</p>
-        <a href="https://your-live-emoji-game-link.com" target="_blank">🔗 Live Demo</a> |
-        <a href="https://github.com/yourusername/emoji-game" target="_blank">📁 GitHub</a>
+        <a href="https://getahunm.github.io/Emoji-Mood-Detective" target="_blank">🔗 Live Demo</a> |
+        <a href="https://github.com/GetahunM/Emoji-Mood-Detective.git" target="_blank">📁 GitHub</a>
       </div>
 
-      <!-- Number Guessing Game -->
-      <div class="col-sm-5 project-card">
-        <h3 style="color: #333;">🔢 Number Guessing Game</h3>
-        <p style="font-size: 16px; color: #555;">
-          A classic guessing game where users try to guess a randomly generated number. It provides hints and limits attempts, making it interactive and educational.
-        </p>
-        <p><strong>Tools:</strong> HTML, CSS, JavaScript</p>
-        <a href="https://your-live-guessing-game-link.com" target="_blank">🔗 Live Demo</a> |
-        <a href="https://github.com/GetahunM/Number-Guessing-Game.git" target="_blank">📁 GitHub</a>
-      </div>
+    
+         <!-- Number Guessing Game -->
+<div class="col-sm-5 project-card">
+  <h3 style="color: #333;">🔢 Number Guessing Game</h3>
 
-    </div>
-  </div>
+  <!-- Screenshot image -->
+  <img src="images/pic.png" alt="Number Guessing Game Screenshot" style="width:100%; max-width:300px; height:auto; border-radius:8px; box-shadow:0 0 10px rgba(0,0,0,0.1); margin-bottom:15px;">
+
+  <!-- Description under image -->
+  <p style="font-size: 16px; color: #555;">
+    A classic guessing game where users try to guess a randomly generated number. 
+    It provides hints and limits attempts, making it interactive and educational.
+  </p>
+
+  <p><strong>Tools:</strong> HTML, CSS, JavaScript</p>
+  <a href="https://getahunm.github.io/Number-Guessing-Game" target="_blank">🔗 Live Demo</a> |
+  <a href="https://github.com/GetahunM/Number-Guessing-Game.git" target="_blank">📁 GitHub</a>
+</div>
+</div>
 </section>
-<!-- Contact Section -->
 <section id="contact" style="padding: 60px 20px; background-color: #f9f9f9;">
   <div class="container text-center">
     <h2 style="color: #26b8bd; font-size: 36px; margin-bottom: 30px;">Contact Me</h2>
@@ -123,12 +130,14 @@
     </p>
 
     <p style="font-size: 18px; margin-top: 30px;">
-      📧 <strong>Email:</strong> <a href="mailto:getahun@example.com">getahunmisganaw0@gmail.com</a><br>
-     
-      💻 <strong>GitHub:</strong> <a href="https://github.com/GetahunM/Number-Guessing-Game.git" target="_blank">GetahunM</a>
+      <strong> 📧 Email: </strong><a href="mailto:getahunmisganaw0@gmail.com">getahunmisganaw0@gmail.com</a><br>
+      💻 <strong>GitHub:</strong> <a href="https://github.com/GetahunM" target="_blank">GetahunM</a>
     </p>
-  </div>
+
+
+  </div> 
 </section>
+
 <footer style="background-color: #555; color: white; text-align: center; padding: 20px; font-size: 16px;">
   © 2025 Getahun. All rights reserved.
 </footer>
@@ -141,10 +150,8 @@
     </div>
   </div>
 
-  <script>
-  // Your existing JS or new JS goes here
-  </script>
-</body>
+
+
 <script>
 // ===== Scroll Spy: highlight nav link on scroll =====
 const navLinks = document.querySelectorAll('.scrollmenu a');
@@ -268,9 +275,7 @@ function validateContactForm() {
 document.querySelectorAll('img').forEach(img => {
   img.loading = 'lazy';
 });
-
-
-
 </script>
+
 </body>
 </html>
