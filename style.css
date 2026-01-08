@@ -15,55 +15,7 @@ body {
 
 /* ===== Smooth Navigation Bar Hover Effect ===== */
 
-.scrollmenu {
-  display: flex;
-  justify-content: center;
-  background-color: #555;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 999;
-}
 
-.scrollmenu a {
-  color: white;
-  padding: 14px 20px;
-  text-decoration: none;
-  font-size: 16px;
-  position: relative;
-  transition: color 0.3s ease;
-}
-
-/* underline effect */
-.scrollmenu a::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  bottom: 6px;
-  width: 0;
-  height: 2px;
-  background-color: #26b8bd;
-  transition: all 0.3s ease;
-  transform: translateX(-50%);
-}
-
-/* hover effect */
-.scrollmenu a:hover {
-  color: #26b8bd;
-}
-
-.scrollmenu a:hover::after {
-  width: 60%;
-}
-
-/* active link (scroll spy) */
-.scrollmenu a.active {
-  color: #26b8bd;
-}
-
-.scrollmenu a.active::after {
-  width: 60%;
-}
 
     .skill-item {
   font-size: 18px;
